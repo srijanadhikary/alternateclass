@@ -1,0 +1,91 @@
+
+<html>
+<head>
+    <title>Choose Your Topic</title>
+ 
+    <style>
+        body {
+            font-size: 30px;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .newspaper {
+            column-count: 2;
+            column-gap: 20px;
+            font-size: 25px;
+        }
+        .button {
+            background-color: mediumseagreen;
+             width: 200px; /* Set the fixed width */
+    padding: 10px; /* Optional padding for button content */
+    margin: 10px; /* Optional margin for spacing between buttons */
+    text-align: center; /* Centers text inside the button */
+    background-color: #4CAF50; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Optional rounded corners */
+    font-size: 30px; /* Font size */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+        }
+        .button:hover {
+            background-color: red;
+            color: white;
+        }
+        h1, h2 {
+            margin: 0;
+        }
+        form {
+            margin: 10px 0;
+        }
+        /* Add animation (fade in) */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .fade-in {
+            animation: fadeIn 1s;
+        }
+    </style>
+</head>
+   
+<body>
+    <h2 style="text-align: left;"><b>Dear students,&nbsp;</b></h2>
+    <h2 style="text-align: left;">Welcome to Alternate Classroom, your go-to resource for comprehensive notes, study guides, and learning materials. Whether you're tackling a new subject or reinforcing your knowledge, we provide clear, concise, and easy-to-follow content to help you succeed. Explore our resources and make learning more effective and enjoyable!&nbsp;</h2>
+  
+    <div class="newspaper">
+        <form action="https://alternateclass.blogspot.com/p/class-xi.html">
+            <button class="button" type="submit"><b>Class XI</b></button>
+        </form><br />
+        
+        <form action="https://alternateclass.blogspot.com/p/class-xii.html">
+            <button class="button" type="submit"><b>Class XII</b></button>
+        </form><br />
+     
+        <form action="https://alternateclass.blogspot.com/p/bsc.html">
+            <button class="button" type="submit"><b>BSC</b></button>
+        </form><br />
+        
+        <form action="https://alternateclass.blogspot.com/p/see-special.html">
+            <button class="button" type="submit"><b>See Special</b></button>
+        </form><br />
+                    
+        <form action="https://alternateclass.blogspot.com/p/class-10-science.html">
+            <button class="button" type="submit"><b>Class 10</b></button>
+        </form><br />
+  
+            <form action="https://alternateclass.blogspot.com/p/opt-science-10.html">
+            
+            <button class="button" type="submit"><b>Class 10 Opt. Science</b></button>
+          </form><br />
+                
+    </div>
+
+    
+
+</body>
+</html>
